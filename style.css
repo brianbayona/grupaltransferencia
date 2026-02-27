@@ -1,0 +1,70 @@
+/* Bloque principal: ejercicio */
+.ejercicio {
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 15px auto;
+    max-width: 600px;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Elementos del bloque */
+.ejercicio__titulo {
+    font-size: 1.5rem;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.ejercicio__resultado {
+    font-size: 1.2rem;
+    color: #555;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+/* Modificadores: cada ejercicio con color distinto */
+.ejercicio--factura {
+    border-color: #4CAF50;
+    background-color: #d0f0c0;
+}
+
+.ejercicio--salario {
+    border-color: #FF9800;
+    background-color: #ffe0b2;
+}
+
+.ejercicio--promedio-edad {
+    border-color: #2196F3;
+    background-color: #c0d0f0;
+}
+
+.ejercicio--gasolina {
+    border-color: #9C27B0;
+    background-color: #e0c0f0;
+}
+
+.ejercicio--tiempo {
+    border-color: #F44336;
+    background-color: #f0c0c0;
+}
+
+.ejercicio--minutos {
+    border-color: #795548;
+    background-color: #d9c6b2;
+}
+
+.ejercicio--descuento {
+    border-color: #009688;
+    background-color: #b2dfdb;
+}
+
+/* Opcional: estilo general para h1 */
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    color: #333;
+}
